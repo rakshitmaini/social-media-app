@@ -21,7 +21,11 @@ const Header = () => {
               <Link href="profile">Profile</Link>
             </li>
             <li>
-              <Link href="settings">settings</Link>
+              <Link href="settings">
+                <i className="fas fa-cogs" aria-hidden="true">
+                  setting
+                </i>
+              </Link>
             </li>
           </ul>
         </div>
