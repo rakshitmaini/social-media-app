@@ -1,13 +1,10 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import { Feeds } from "../components/feeds";
 
-export default function Home() {
+// Home Page is Feeds / Posts Page
+export default function homePage() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>TheSocialApp</title>
-        <link rel="icon" href="/logo.png" />
-      </Head>
+    <div>
+      <Feeds />
     </div>
   );
 }
